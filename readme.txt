@@ -1,9 +1,9 @@
 -----------------------------------------------
-Sitio web HealthService
+Sitio web HealthService - Demo
 
 Desarrollo utilizando framework bootstrap
 
-Objetivo prototipo del site.
+Objetivo: prototipo del site.
 
 -----------------------------------------------
 
