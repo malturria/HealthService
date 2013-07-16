@@ -40,6 +40,7 @@
           box-sizing: border-box;
 }
 
+
 article,
 aside,
 details,
@@ -227,7 +228,8 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: #ffffff;
+  background-color: white;
+  /*  #FFFAF0*/
 }
 
 a {
@@ -290,6 +292,7 @@ a:focus {
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
   width: 940px;
+
 }
 
 .span12 {

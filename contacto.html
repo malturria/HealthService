@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="utf-8"> 
@@ -19,57 +19,104 @@
 <body>
   <img src="logo-min.jpg" alt="" class="img-rounded">
   <p></p> 
-  <div class="navbar navbar-fixed-center">      
-       <div class="navbar-inner">
-            <div class="container">  
-                <a class="brand" href="index.html">Health Services</a>      
-                <ul class="nav">
-                  <li><a href="index.html">Nuestra Misi&oacute;n / Visi&oacute;n</a></li>
-                  <li><a href="protesis.html">Protesis - Traumatolog&iacute;a</a></li>
-     
-                  <li class="dropdown">
-                        <a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">Planes / Servicios<b class="caret"></b></a>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="plan500.html">Plan 500</a></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="plan1000.html">Plan 1000</a></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="plan2000.html">Plan 2000</a></li>
-                          <li role="presentation" class="divider"></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="servicios.html">Servicios Inform&aacute;ticos</a></li>
-                        </ul>
-                  </li>
-                  <li class="active"><a href="contacto.html">Cont&aacute;ctenos</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>  
-
-    <div class="container">
-      <div class="span1"> 
-      <div class="span9">
-        <p>
-        FLORIDA 520, PISO 3 Of. 305 (C1005AAL) CIUDAD AUTONOMA DE BUENOS AIRES-ARGENTINA
-        Tel.: (+54.11) 4328.0853 y rotativas.
-        </p>
-        <p>
-        Info@health-services.com.ar // www.health-services.com.ar
-        </p>
-        <p>
-        </p>
-        Desarrollar formulario de contacto
+ 
+ <div class="navbar navbar-fixed-center">      
+     <div class="navbar-inner">
+          <div class="container">  
+              <a class="brand" href="index.html">Health Services</a>      
+              <ul class="nav">
+                <li><a href="index.html">Nuestra Misi&oacute;n / Visi&oacute;n</a></li>
+                <li><a href="protesis.html">Protesis - Traumatolog&iacute;a</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li class="active"><a href="contacto.html">Cont&aacute;ctenos</a></li>
+              </ul>
+          </div>
       </div>
-      <div class="span2">
-   </div> 
+  </div>  
 
-   <div class="span12" align="center">
-     <hr>
-      <footer>
-        <p> 
-        Webmaster: Mauro Soler / CopyRight: Health Services &copy; 03/2013 - Ver. 1.0
-        </p>
-      </footer>
-     </hr>
-   </div>
- </div>
+  <div class="container">
+ 
+ <!--
+  <div class="span1"> 
+  <div class="span9">
+-->
+
+  <div class="row">
+
+    <form class="form-horizontal" action = "enviamail.php" method = "post"> 
+
+                 <div class="span3"></div>
+
+                 <div class="span6"> 
+
+                    <fieldset>  
+                      <legend>Cont&aacute;ctenos</legend>  
+                      
+                      <div class="control-group">  
+                        <label class="control-label" for="input01">Apellido y Nombre</label>  
+                        <div class="controls">  
+                          <input name = "input01" type="text" class="input-xlarge" id="input01" planceholder = "nombre de contacto">  
+                        </div>  
+                      </div>  
+
+                     <div class="control-group">  
+                        <label class="control-label" for="input02">Empresa</label>  
+                        <div class="controls">  
+                          <input name = "input02" type="text" class="input-xlarge" id="input02" planceholder = "razón social">  
+                        </div>  
+                      </div>            
+
+                      <div class="control-group">  
+                        <label class="control-label" for="input03">Tel&eacute;fono</label>  
+                        <div class="controls">  
+                          <input name = "input03" type="text" class="input-xlarge" id="input03" planceholder = "teléfono">  
+                        </div>  
+                      </div>            
+
+                    <div class="control-group">  
+                        <label class="control-label" for="input04">eMail</label>  
+                        <div class="controls">  
+                          <input name = "input04" type="email" class="input-xlarge" id="input04" planceholder = "mail">  
+                        </div>  
+                      </div>     
+
+                      <div class="control-group">  
+                        <label class="control-label" for="textarea">Comentarios</label>  
+                        <div class="controls">  
+                          <textarea name = "textarea" class="input-xlarge" id="textarea" rows="4"></textarea>  
+                        </div>  
+                      </div> 
+
+                      <div class="span6"  align="center">
+                        <button type="submit" class="btn btn-primary">Enviar</button>  
+                      </div> 
+                    
+                    </fieldset>  
+
+                </div>
+
+                <div class="span3"> </div>
+
+    </form>  
+
+  <!--     
+      </div>
+      <div class="span12">
+   </div> 
+   
+-->
+</div> 
+</div> 
+
+<footer>
+ <div class="span1"></div>
+ </div> 
+ <div class="span4"></div>
+  <p>(+54.11) 4328.0853 - CABA - Info@health-services.com.ar</p>
+ </div> 
+ <div class="span1"></div>
+</footer> 
+
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
